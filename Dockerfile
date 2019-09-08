@@ -1,6 +1,6 @@
-FROM node:10-alpine
+FROM node:12-alpine
 
-# MAINTAINER Henrique Schmidt <henrique.schmidt@4all.com>
+LABEL maintainer="henrique.schmidt@somosphi.com"
 
 # run
 RUN apk update && \
