@@ -10,4 +10,4 @@ RUN apk update && \
     rm get-pip.py && \
     pip install --upgrade pip && \
     pip install awscli --upgrade  && \
-    npm install -g typescript
+    npm install -g typescript ts-node
